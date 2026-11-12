@@ -1,0 +1,20 @@
+# Site identity — replace every placeholder below for the new site.
+title: "Academic Profile Template"
+tagline: "Starter site for Thornbury Institute research staff"
+description: "A minimal Jekyll profile site maintained by the Thornbury Institute web team."
+baseurl: ""
+url: "https://example.org"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins: []
+
+# Site owner identity block
+author:
+  name: "Your Name"
+  role: "Your role"
+  affiliation: "Your Institute"
+  email: "your-email@example.org"
+  orcid: "0000-0000-0000-0000"
+  github: "your-handle"

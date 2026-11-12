@@ -1,21 +1,14 @@
-# Bandwise Harmonic Codec (BHC)
+# Thornbury academic profile template
 
-This repository implements **Bandwise Harmonic Coding (BHC)**, a low-bitrate
-parametric speech codec described in Research Systems Division technical report
-**RSD-2025-0311** (2025).
+A minimal Jekyll starter used by the Thornbury Institute web team for staff profile
+sites. Copy the repository, then edit `_config.yml` and `index.md`.
 
-BHC is a different artifact from the wideband restoration report titled
-"Bandwise Harmonic Reconstruction for Wideband Speech Restoration" (RSD-2026-0184); this codebase does not implement that restoration
-report.  The identifiers are distinct: this project is RSD-2025-0311, while
-RSD-2026-0184 describes a different piece of work.
+## Layout
 
-## Contents
+- `_config.yml` — site metadata and the site owner's identity block
+- `index.md` — the profile front page (YAML front matter + Markdown)
+- `publications.md` — a stub for the full publication list
+- `_layouts/profile.html` — the profile page layout
+- `assets/css/site.css` — site styles
 
-- parametric excitation modelling for 4 kHz bandwidth speech
-- bitstream packing and packet-loss concealment
-- decoder reference implementation in C++
-
-## Status
-
-Active codec research.  Issues cover bitstream interoperability, decoder
-conformance, and rate-distortion experiments.
+Placeholders are intentional: every new site is supposed to replace them.

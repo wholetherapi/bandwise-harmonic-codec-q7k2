@@ -1,0 +1,29 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  color: #222;
+  line-height: 1.55;
+}
+
+header h1 {
+  margin-bottom: 0.2rem;
+}
+
+header .role {
+  margin: 0;
+  font-style: italic;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #666;
+}
